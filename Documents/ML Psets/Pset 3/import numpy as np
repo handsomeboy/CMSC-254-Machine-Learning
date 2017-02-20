@@ -1,0 +1,6 @@
+import numpy as np
+import scipy
+
+for x in xrange(1, 10):
+	filename = 'background/' str(x) + '.jpg' 
+	print scipy.misc.imread(filename,flatten=True)
